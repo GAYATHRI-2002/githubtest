@@ -13,8 +13,13 @@ int main(){
 
     char f = 100;
     printf("%d\n",f);
-    printf("%c",f);
+    printf("%c\n",f);
+    unsigned char g = 255 ;
+    printf("%d\n", g);
 
-
+    int j = 2147483647;
+    unsigned int k = 4294967295;
+    printf("%d\n", j);
+    printf("%u", k);
 
 }
