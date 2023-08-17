@@ -6,4 +6,6 @@ int main(){
     printf(" item : $%8.3f\n", item1);
     
     printf(" item : $%8.3f\n", item2);
+    const float PI = 3.14 ;
+    printf("%.2f", PI);
 }
