@@ -56,6 +56,33 @@ int main(){
    }
 }
 
+//print *
+#include<stdio.h>
+int main(){
+    int i, j, n;
+    printf("ener the number of lines : \n");
+    scanf("%d", &n);
+    for(i=1;i<=n;i++)
+    {
+        for(j=0;j<i;j++){
+            printf("*");
+        }printf("\n");
+    }
+}
 
+//print * in decreasing order
+
+#include<stdio.h>
+int main(){
+    int i, j, n;
+    printf("enter the number of lines ");
+    scanf("%d",&n);
+
+    for(i=1;i<=n;i++){
+        for(j=n;j>=i;j--){
+            printf("*");
+        }printf("\n");
+    }
+}
     
    
