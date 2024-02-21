@@ -33,3 +33,18 @@ int main(){
     }
     
 }
+
+
+// enter a name
+#include<stdio.h>
+int main(){
+    
+    char name[20];
+
+    printf("enter a name: ");
+    scanf("%s", name);
+
+    printf("the name is %s", name);
+
+    
+}
